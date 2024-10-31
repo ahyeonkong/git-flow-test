@@ -12,6 +12,6 @@ public class Calculator {
     }
 
     public static int subtract(int a, int b) {
-        return a - b;
+        return a - b; // 버그 수정: 잘못된 연산자 수정
     }
 }
